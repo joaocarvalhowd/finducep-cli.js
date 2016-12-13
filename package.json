@@ -1,0 +1,32 @@
+{
+  "name": "finducep-cli.js",
+  "version": "1.0.0",
+  "description": "🕵 [CLI] The easy way to find the info about your CEP.",
+  "main": "index.js",
+  "bin": {
+    "finducep": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaocarvalhowd/finducep-cli.js.git"
+  },
+  "keywords": [
+    "cep",
+    "zipcode",
+    "postal"
+  ],
+  "author": "João Carvalho <oi@joaocarvalhowd.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaocarvalhowd/finducep-cli.js/issues"
+  },
+  "homepage": "https://github.com/joaocarvalhowd/finducep-cli.js#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "meow": "^3.7.0"
+  }
+}
